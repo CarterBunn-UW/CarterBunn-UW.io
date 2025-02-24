@@ -1,0 +1,59 @@
+/* Your CSS goes here! */
+.content-container {
+  background-color: #C5050C; 
+  overflow: scroll;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 75%;
+  padding: 3%;
+}
+
+.grey-content-container {
+  background-color: grey; 
+  overflow: scroll;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 75%;
+  padding: 3%;
+}
+
+.image {
+    width: 100%;
+    padding: 10%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  .center {
+    display: block;
+    width: 50%;
+  }
+
+  .plain-link {
+    text-decoration: none; 
+    color: white;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
